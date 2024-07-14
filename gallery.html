@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="rs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x'icon" href="/imgs/logo.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" > 
+    <script src="footer.js" type="text/javascript" defer></script>
+
+    <title>Apartmani restoran 401 | Galerija</title>
+</head>
+<body>
+  <header>
+    <a class="container-logo" href="index.html">
+        <img src="./imgs/logo.png">   
+    </a>      
+    <div class="menu-bar">
+        <div class="cf">
+            <div class="three col">
+                <div class="hamburger" id="hamburger-11">
+                  <span class="line"></span>
+                  <span class="line"></span>
+                  <span class="line"></span>
+                </div>
+              </div>
+        </div>
+        
+    </div>   
+    <nav>
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="about.html">O nama</a></li>
+            <li><a href="accomodation.html">Smeštaj</a></li>
+            <li><a href="restaurant.html">Restoran</a></li>
+            <li><a href="special_offer.html">Posebne ponude</a></li>
+            <li class="active"><a href="#">Galerija</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+             <li><a><img src="imgs/serbia.png"></a></li>
+             <li><a href="./en/index.html" id="english"><img src="imgs/usa.png"></a></li>
+        </ul>
+    </nav>
+ 
+
+</header>
+    
+
+<div class="main-wrapper">
+  <h2>Galerija</h2> 
+
+
+</div>
+
+<div class="row" id="gallery">
+  <!-- Slike će se automatski generisati ovde -->
+</div>
+
+<div id="main-modal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content" id="modal-content">
+    <div id="modal-slides">
+      <!-- Slike u modalnom prozoru će se automatski generisati ovde -->
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+    <footer-component></footer-component>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="menu-nav.js"></script>
+    <script type="text/javascript" src="gallery.js"></script>
+</body>
+</html>

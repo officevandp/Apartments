@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="rs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x'icon" href="/imgs/logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" > 
+    <script src="footer.js" type="text/javascript" defer></script>
+  
+    <title>Apartmani restoran 401 | Kontakt</title>
+</head>
+<body>
+    <header>
+        <a class="container-logo" href="index.html">
+            <img src="./imgs/logo.png">   
+        </a>      
+        <div class="menu-bar">
+            <div class="cf">
+                <div class="three col">
+                    <div class="hamburger" id="hamburger-11">
+                      <span class="line"></span>
+                      <span class="line"></span>
+                      <span class="line"></span>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>   
+        <nav>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="about.html">O nama</a></li>
+                <li><a href="accomodation.html">Smeštaj</a></li>
+                <li><a href="restaurant.html">Restoran</a></li>
+                <li><a href="special_offer.html">Posebne ponude</a></li>
+                <li><a href="gallery.html">Galerija</a></li>
+                <li class="active"><a href="#">Kontakt</a></li>
+                 <li><a><img src="imgs/serbia.png"></a></li>
+                 <li><a href="./en/index.html" id="english"><img src="imgs/usa.png"></a></li>
+            </ul>
+        </nav>
+     
+    
+    </header>
+    <main class="contact-wrapper">
+        <div class="contact">
+            <h5>Kontaktirajte nas</h5>
+            <p>Ukoliko imate pitanja o našem objektu, našim uslugama ili Vam trebaju dodatne informacije, popunite obrazac a mi ćemo Vam odgovoriti na upit u najkraćem mogućem roku. U hitnim slučajevima, možete nas kontaktirati  na broj telefona:</p>
+            <p class="center-text">
+                <a href="tel:+38765167781">+387 65 167 781</a>       
+            </p>
+            <div class="contact">
+                <p class="center-text">Pošaljite upit</p>
+                <div class="contact-form" >
+                    <form action="email.php" method="post" name="contactform">
+      
+                        <input maxlength="50" name="first_name" id="first" size="30" type="text" required placeholder="Ime *" class="form-control"  />
+                           
+                        <input maxlength="50" name="last_name"  id="last" size="30" type="text" required  placeholder="Prezime *" class="form-control"  />
+                          
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{8}|[0-9]{9}" required placeholder="Telefon * (primer: 65555555)" class="form-control" />
+    
+                        <input maxlength="80" name="email" id="email-address" size="30" type="email"required  placeholder="E-mail * (primer: you@example.com)" class="form-control" />
+                          
+                        <textarea cols="25" maxlength="1000" id="msg" name="comments" rows="6" required placeholder="Poruka *" class="form-control"  ></textarea>
+                        <div class="newsletter-wrap">
+                          <input class="privacy-newsletter" type="checkbox" value="Privatnost" required> 
+                          <label class="label-footer-agreement" for="privacy"> Saglasan/na sam sa <span><a href="privacy_policy.html">politikom privatnosti</a></span>.</label>
+                      </div>
+                        <small>* Obavezno polje</small>
+                        <input class="submit-contact" type="submit" name="submit" value="Pošalji" />
+                         
+                        </form>
+                        <p id="txt-sending-message"></p>              
+    
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5663.416853364092!2d19.271705558076974!3d44.7867493195325!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475be9312f6dcc3d%3A0x41e8eb56d12faa7c!2sapartmani%20401!5e0!3m2!1sen!2srs!4v1720305128644!5m2!1sen!2srs" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+            </div>
+        </div>
+        
+        </main>  
+        <div class="contact">
+        </br>    
+    </br>    
+</br>    
+
+    </div> 
+    <footer-component></footer-component>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="contact.js"></script>
+<script type="text/javascript" src="menu-nav.js"></script>
+</body>
+</html>
